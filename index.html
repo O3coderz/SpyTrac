@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpyTrac - Monitoring App for Android devices</title>
+    <link rel="icon" href="https://spytrac.com/wp-content/uploads/2021/10/fav72.png" type="image/x-icon">
+    <!---------------------css link------------------->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <!----------------------------font awesome link --------------------->
+    <script src="https://kit.fontawesome.com/b071e9ccf3.js" crossorigin="anonymous"></script>
+    <!----------------------------- boxicons link -------------------------->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!-------------------------google fonts Link-------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-----------------------------header strated------------------------>
+
+    <header class="nav-head">
+        <img class="logo" src="https://spytrac.com/wp-content/uploads/2021/10/LogoST.png" alt="spytrac">
+        <!-- <label for="check"><i class="fas fa-bars"></i></label> -->
+        <!-- dropdown-btn -->
+        <menu class="dropdown-menu">
+            <a class="dropdown-btn"><img class="country-flag" src="https://spytrac.com/flags-iso/shiny/24/GB.png" alt="country"><i class="fas fa-caret-down"></i></a>
+
+            
+            <div id="all-languages">
+                <a href="#"><img src="https://spytrac.com/flags-iso/shiny/24/GB.png" alt="english"><span>English</span></a>
+                <a href="#"><img src="https://spytrac.com/flags-iso/shiny/24/ES.png" alt="Spanish"><span>Spanish</span></a>
+                <a href="#"><img src="https://spytrac.com/flags-iso/shiny/24/FR.png" alt="Français"><span>Français</span></a>
+                <a href="#"><img src="https://spytrac.com/flags-iso/shiny/24/DE.png" alt="Deutsch"><span>Deutsch</span></a>
+                <a href="#"><img src="https://spytrac.com/flags-iso/shiny/24/IT.png" alt="Italiano"><span>Italiano</span></a>
+                <a href="#"><img src="https://spytrac.com/flags-iso/shiny/24/PT.png" alt="Português"><span>Português</span></a>
+                <a href="#"><img src="https://spytrac.com/flags-iso/shiny/24/NL.png" alt="Nederlands"><span>Nederlands</span></a>
+                <a href="#"><img src="https://spytrac.com/flags-iso/shiny/24/RU.png" alt="RU"><span>Pyccкий</span></a>
+                <a href="#"><img src="https://spytrac.com/flags-iso/shiny/24/JP.png" alt="JP"><span>日本語</span></a>
+                <a href="#"><img src="https://spytrac.com/flags-iso/shiny/24/KR.png" alt="KA"><span>한국어</span></a>
+                <a href="#"><img src="https://spytrac.com/flags-iso/shiny/24/SA.png" alt="Arabic"><span>العربية</span></a>
+                <a href="#"><img src="https://spytrac.com/flags-iso/shiny/24/IN.png" alt="India"><span>हिन्दी</span></a>
+                <a href="#"><img src="https://spytrac.com/flags-iso/shiny/24/PK.png" alt="PK"><span>ਪੰਜਾਬੀ</span></a>
+                <a href="#"><img src="https://spytrac.com/flags-iso/shiny/24/BD.png" alt="BD"><span>বাংলা</span></a>
+                <a href="#"><img src="https://spytrac.com/flags-iso/shiny/24/IL.png" alt="IL"><span>עברי</span></a>
+                <a href="#"><img src="https://spytrac.com/flags-iso/shiny/24/CN.png" alt="China"><span>中文 (简体)</span></a>
+                
+                
+            </div>
+        </menu>
+
+        <!-- navigation bar -->
+        <div class="navBar-signBar">
+            <nav class="navigationBar">
+                <ul>
+                    <li><a class="active" title="Installation" href="#">Installation</a></li>
+                    <li><a title="Features" href="#">Features</a></li>
+                    <li><a title="How It Works" href="#">How It Works</a></li>
+                    <li><a title="Pricing" href="#">Pricing</a></li>
+                    <li><a title="Support" href="#">Support</a></li>
+                    <li><a title="Demo" href="#">Demo</a></li>
+                </ul>
+            </nav>
+            <div class="navigation-sign">
+                <ul>
+                    <li title="Sign In" id="signIn"><a href="https://o3coderz.github.io/loginRegitration/">Sign In</a></li>
+                    <li title="Try It Now" id="tryItNow"><a href="#">Try It Now</a></li>
+                </ul>
+            </div>
+        </div>
+        
+    </header>
+
+
+    <!-----------------------------header end------------------------>
+
+    <!--------------------section class="container-wrap"-----------strted------------------------>
+
+
+    <section class="container-wrap">
+        <!-----------------------------mini-container-wrap-----------started----------------------->
+        <div class="mini-container-wrap-img">
+
+            <div class="mini-container-wrap">
+
+                <!-- logo & h1 -->
+                <div class="mini-container-logo">
+                    <div class="container-in-logo">
+                        <img src="https://spytrac.com/wp-content/uploads/2021/10/logo-white.png" alt="spytrac_logo">
+                    </div>
+                    <div class="container-in-intro">
+                        <h1>The Most Trusted Tracking Software</h1>
+                    </div>
+                </div>
+
+                <!-- mini-container -->
+
+                <div class="mini-container-info">
+
+                    <h3>Everyone’s Favorite Child Supervision Software</h3>
+                    <p>
+                        <strong>
+                            <span class="plus">+</span>
+                     </strong>
+                        <span class="text">Track all calls and texts, including the deleted ones.</span>
+                    </p>
+                    <p>
+                        <strong>
+                            <span class="plus">+</span>
+                        </strong>
+                        <span class="text">Keep up with WhatsApp, Facebook, Instagram, and phone gallery.</span>
+                    </p>
+                 <p>
+                        <strong>
+                            <span class="plus">+</span>
+                        </strong>
+                        <span class="text">Track GPS location + adjust protection and alarms.</span>
+                    </p>
+                    <p>
+                        <strong>
+                            <span class="plus">+</span>
+                        </strong>
+                        <span class="text"> Real-time video, screen, and audio are available.</span>
+                    </p>
+
+                </div>
+
+                <!-- mini-container end -->
+
+                <!-- link -->
+
+
+                <div class="free-trial-or-veiw-demo">
+                    <ul>
+                        <li id="free-trial"><a href="#" title="Sign Up">FREE TRIAL</a></li>
+                        <li id="or">or</li>
+                        <li id="veiw-demo"><a href="#">VIEW DEMO</a></li>
+                    </ul>
+                    <span class="android-devices">All Android devices are compatible.</span>
+                </div>
+
+            </div>
+
+            <!-----------------------------mini-container-wrap-----------end----------------------->
+            <!-- mini-container-img -->
+            <div class="mini-container-img">
+                <img src="https://spytrac.com/wp-content/uploads/2021/09/FrontClose.png" alt="FrontClose">
+            </div>
+
+        </div>
+
+        <div class="mini-container-river-img">
+            <img class="river" src="https://spytrac.com/wp-content/uploads/2021/09/headerwave.png" alt="background-img">
+        </div>
+    
+        
+    </section>
+
+    <!-----------------------section container-wrap end----------------------------------->
+    <!-----------------------section services start----------------------------------->
+
+    <section class="services">
+        <div class="services-heading">
+            <h1>What makes SpyTrac global <br>top parental supervision software?</h1>
+        </div>
+        <div class="service-info">
+
+            <!--1 mini-service-info -->
+
+            <div class="mini-service-info">
+                <div class="mini-service-icon">
+                    <i class='bx bx-group'></i>
+                    <!-- <img src="https://img.icons8.com/dotty/80/000000/group-foreground-selected.png"/> -->
+                    
+                </div>
+                <div class="mini-service-p">
+
+                    <p>Chosen by millions of parents worldwide. Almost 100% repeating clients.</p>
+
+                </div>
+            </div>
+            <!--2 mini-service-info -->
+
+            <div class="mini-service-info">
+                <div class="mini-service-icon">
+                    <i class='bx bxs-devices'></i>
+
+                </div>
+                <div class="mini-service-p">
+
+                    <p>Round-the-clock support is here for you. Supervising is performed remotely.</p>
+
+                </div>
+            </div>
+            <!--3 mini-service-info -->
+
+            <div class="mini-service-info">
+                <div class="mini-service-icon">
+                    <i class='bx bx-mobile-alt'></i>
+
+                </div>
+                <div class="mini-service-p">
+
+                    <p>Daily supervision service comes at a bargain price.</p>
+
+                </div>
+            </div>
+            <!--4 mini-service-info -->
+
+            <div class="mini-service-info">
+                <div class="mini-service-icon">
+                    <i class="fas fa-users"></i>
+                    <!-- <img src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/64/000000/external-global-business-and-management-kiranshastry-lineal-kiranshastry.png"/> -->
+                </div>
+                <div class="mini-service-p">
+
+                    <p>Put your concerns aside and have a direct insight into your child’s online actions.</p>
+
+                </div>
+            </div>
+            <!--5 mini-service-info -->
+
+            <div class="mini-service-info">
+                <div class="mini-service-icon">
+                    <i class='bx bxs-map-pin'></i>
+                    <!-- <img src="https://img.icons8.com/material-outlined/80/000000/street-view.png"/> -->
+                </div>
+                <div class="mini-service-p">
+
+                    <p>See your child’s device’s current location instantly. Browse GPS history and adjust alarms.</p>
+
+                </div>
+            </div>
+            <!--6 mini-service-info -->
+
+            <div class="mini-service-info">
+                <div class="mini-service-icon">
+                    <i class='bx bx-stopwatch'></i>
+                </div>
+                <div class="mini-service-p">
+
+                    <p>Easy and quick installation. Everything is under 15 minutes.</p>
+
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- service-free-or-demo -->
+
+        <div class="service-free-or-demo">
+            <ul>
+                <li id="free-trial"><a href="#" title="Sign Up">FREE TRIAL</a></li>
+                <li id="or">or</li>
+                <li id="veiw-demo"><a href="#">VIEW DEMO</a></li>
+            </ul>
+        </div>
+
+    </section>
+    <!---------------------- highlights ---------------------->
+    <section class="highlights">
+        <div class="SpyTracHighlights">
+            <p id="supervition">Parental supervision software for your child’s safety in the online world</p>
+            <h1>SpyTrac Highlights</h1>
+            <p id="mission">Perfecting our service is our mission. We enable access to the latest social media and communication applications. We’re adding new layers of protection and security regularly.</p>
+
+
+        </div>
+
+    </section>
+
+    <!------------------ monitoring-notifiction ------------>
+
+    <section class="monitoring-notifiction">
+        <div class="monitoring">
+            <!-- notification 1 -->
+            <div class="notification">
+                
+                <div class="icon-text">
+                    <div class="icon">
+                        <i class='bx bx-envelope'></i>
+
+                    </div>
+                    <div class="text">
+                        <h4>TEXT MESSAGES MONITORING</h4>
+
+                    </div>
+
+                </div>
+                <div class="p-text">
+                    <p>Even if a message is removed from the child’s device, see all messages sent or received.</p>
+
+
+                </div>
+
+            </div>
+            <!-- notification 2 -->
+            <div class="notification">
+                <div class="icon-text">
+                    <div class="icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="text">
+                        <h4>WEB & SOCIAL MEDIA MONITORING</h4>
+
+                    </div>
+
+                </div>
+                <div class="p-text">
+                    <p>Supervise social media platforms such as Snapchat, Instagram, Facebook, Twitter, Tinder, and others, as well as your child’s browser history.</p>
+
+                </div>
+
+            </div>
+            <!-- notification 3 -->
+            <div class="notification">
+                <div class="icon-text">
+                    <div class="icon">
+                        <i class="far fa-comments"></i>
+
+                    </div>
+                    <div class="text">
+                        <h4>MESSAGING APPS MONITORING</h4>
+
+                    </div>
+
+                </div>
+                <div class="p-text">
+                    <p>Chats from Viber, WhatsApp, Snapchat, Messenger, Kik, and other popular messaging applications are all accessible.</p>
+
+                </div>
+
+            </div>
+            <!-- notification 4 -->
+            <div class="notification">
+                <div class="icon-text">
+                    <div class="icon">
+                        <i class="far fa-image"></i>
+
+                    </div>
+                    <div class="text">
+                        <h4>PHOTO AND VIDEO MONITORING</h4>
+
+                    </div>
+
+                </div>
+                <div class="p-text">
+                    <p>See and download all images and videos captured, downloaded, and received by the supervised device.</p>
+
+                </div>
+
+            </div>
+            <!-- notification 5 -->
+            <div class="notification">
+                <div class="icon-text">
+                    <div class="icon">
+                        <i class='bx bx-mobile-alt'></i>
+
+                    </div>
+                    <div class="text">
+                        <h4>CALL MONITORING</h4>
+
+                    </div>
+
+                </div>
+                <div class="p-text">
+                    <p>Have an updated list of outgoing and incoming calls, their time and duration, plus full caller info.</p>
+
+                </div>
+
+            </div>
+            <!-- notification 6 -->
+            <div class="notification">
+                <div class="icon-text">
+                    <div class="icon">
+                        <i class='bx bx-bell'></i>
+
+                    </div>
+                    <div class="text">
+                        <h4>ALERTS</h4>
+
+                    </div>
+
+                </div>
+                <div class="p-text">
+                    <p>Configure swearing alarms, geo-fencing, contact alarms, and other features to help you sleep better at night.</p>
+
+                </div>
+
+            </div>
+            <!-- notification 7 -->
+            <div class="notification">
+                <div class="icon-text">
+                    <div class="icon">
+                        <i class='bx bxs-map-pin'></i>
+
+                    </div>
+                    <div class="text">
+                        <h4>GPS HISTORY + LIVE LOCATION</h4>
+
+                    </div>
+
+                </div>
+                <div class="p-text">
+                    <p>Keep track of your child’s location thanks to accessing their live position and GPS history.</p>
+
+                </div>
+
+            </div>
+            <!-- notification 8 -->
+            <div class="notification">
+                <div class="icon-text">
+                    <div class="icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+
+                    </div>
+                    <div class="text">
+                        <h4>APPLICATION BLOCKING</h4>
+
+                    </div>
+
+                </div>
+                <div class="p-text">
+                    <p>Manage your child’s device by blocking or limiting downloaded or built-in applications.
+
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="service-free-or-demo">
+            <ul>
+                <li id="free-trial"><a href="#" title="Sign Up">FREE TRIAL</a></li>
+                <li id="or">or</li>
+                <li id="veiw-demo"><a href="#">VIEW DEMO</a></li>
+            </ul>
+        </div>
+        
+    </section>
+    <section class="improve">
+        <div class="android-app">
+            <div class="android-app-improve">
+                <h1>Improve your child’s safety in the online world with SpyTrac</h1>
+                <h3>All Android phones and tablets are compatible.</h3>
+            </div>
+            <div class="mobile-img">
+                <img src="https://spytrac.com/wp-content/uploads/2021/10/group1.png" alt="mobile">
+            </div>
+        </div>
+    </section>
+
+    <!-- happy-clients -->
+
+    <section class="happy-clients">
+        <div class="happy-client-comment">
+            <div class="client-story-head">
+                <h1>Happy Clients Have Happy Stories</h1>
+                <div class="rating-icon">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+
+                </div>
+
+            </div>
+            <div class="clients-storys">
+                <!-- 1 client-site -->
+                <div class="client-site">
+                    <div class="client-name">
+                        <img src="https://spytrac.com/wp-content/uploads/2021/10/feedback-ico.png" alt="man-icon">
+                        <span>Ahmad</span>
+                        <div class="rating-icon">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                    </div>
+                    <div class="client-comment">
+                        <p><q>SpyTrac is one of my favorite apps! It is plain fantastic. I want to thank the support crew in particular. I have always received prompt assistance with anything I need. That includes installing the app, retrieving deleted messages, and using other interesting features. This is ideal for the parents who feel like aliens in this tech world.</q></p>
+                    </div>
+                </div>
+
+                <!-- 2 client-site -->
+
+                <div class="client-site">
+                    <div class="client-name">
+                        <img src="https://spytrac.com/wp-content/uploads/2021/10/feedback-ico.png" alt="man-icon">
+                        <span>Laura</span>
+                        <div class="rating-icon">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                    </div>
+                    <div class="client-comment">
+                        <p><q>I am a parent, and naturally, I worry a lot. I am a working mom of two teenagers that spend a lot of time online. I used to lose sleep thinking if they’re hanging out with strangers or visiting dangerous places that are not suitable for their age group. I stopped worrying when I started using SpyTrac. I can see their text messages and GPS location whenever I want. I know some of you will say that that is not really nice. However, I choose to keep my children safe, thank you very much.</q></p>
+
+                    </div>
+                </div>
+
+                <!-- 3 client-site -->
+
+                <div class="client-site">
+                    <div class="client-name">
+                        <img src="https://spytrac.com/wp-content/uploads/2021/10/feedback-ico.png" alt="man-icon">
+                        <span>Danny</span>
+                        <div class="rating-icon">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                    </div>
+                    <div class="client-comment">
+                        <p><q>I want to thank SpyTrac and you guys for helping me realize that my daughter was receiving obscene texts and shared photos from her classmates. My wife and I were worried sick because our daughter became anxious every time she received a new text message. She didn’t want to talk to us, but I installed SpyTrac on her phone and saw the truth. We turned to the school headmaster who helped us deal with the matter.</q></p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="help-us">
+        <div class="child-business">
+            <div class="business-info">
+                <div class="intro-head">
+                    <h1>Knowing your child’s business means protecting them from harm.<br>
+                        SpyTrac helps you keep your child safe.</h1>
+                </div>
+                <div id="help" class="service-free-or-demo">
+                    <ul>
+                        <li id="free-trial"><a href="#" title="Sign Up">FREE TRIAL</a></li>
+                        <li id="or">or</li>
+                        <li id="veiw-demo"><a href="#">VIEW DEMO</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="development">
+                <img src="https://spytrac.com/wp-content/uploads/2021/10/bottom1-300x271.png" alt="electric">
+
+            </div>
+        </div>
+        <img style="width: 100%; margin-top: 10px; display: block;" src="https://spytrac.com/wp-content/uploads/2021/10/footer-wave-light.png" alt="">
+
+    </section>
+    <section class="ending-section">
+        <div class="monitoring">
+            <!-- Mobile Monitoring -->
+            <div class="follow-us">
+                <h2>Mobile Monitoring</h2>
+                <ul>
+                    <li><a href="#">How It Works</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Sign In</a></li>
+                    <li><a href="#">Uninstall</a></li>
+                    <li><a href="#">Remote Installation</a></li>
+                    <li><a href="#">Premium Support</a></li>
+                </ul>
+            </div>
+
+            <!-- Information -->
+            <div class="follow-us">
+                <h2>Information</h2>
+                <ul>
+                    <li><a href="#">Free Trial</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Volume Pricing</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Demo</a></li>
+                </ul>
+            </div>
+            <!-- Legal -->
+            <div class="follow-us">
+                <h2>Legal</h2>
+                <ul>
+                    <li><a href="#">Compatibility</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                    <li><a href="#">Legal Disclaimer</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">EULA</a></li>
+                </ul>
+            </div>
+            <div class="follow-us">
+                <!-- spytrac-logo -->
+                <div class="spytrac-logo">
+                    <img src="https://spytrac.com/wp-content/uploads/2021/10/LogoFooterCyan.png" alt=""logo>
+                </div>
+            <div class="folloe-me">
+                    <ul>
+                        <li><a href="https//:www.facebook.com"><i class="fab fa-facebook-square"></i></a></li>
+                        <li><a href="https//:www.vimeo.com"><i class="fab fa-vimeo-v"></i></a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <footer class="disclaimer">
+
+        <div class="footer-section">
+            <div class="legal-disclaimer">
+                <p id="legal"><strong>Legal Disclaimer: </strong>The SpyTrac Monitoring Product or Service may only be used for legitimate and lawful purposes by authorized users, and you are hereby notified that installing or using the SpyTrac Monitoring Product or Service for any other purpose may violate local, state, and/or federal law.</p>
+                <p id="spytrac">SpyTrac is designed for monitoring your children, employees, or other consenting adults on a Smartphone you own. You must notify users of the mobile phone that they are being monitored by the SpyTrac service, failure to do so may result in the breaking of your country’s laws and regulations. If you install SpyTrac service software onto a phone device of which you do not own, we will fully cooperate with law officials to the fullest extent possible. All trademarks on this site are property of their respective owners. Mentioned trademarks are used solely for the purpose of describing Smartphone and carrier compatibility for our mobile phone monitoring software.</p>
+                <p id="trademark"><strong>Trademark Disclaimer: </strong>All product, mark, and/or individual company names mentioned on this site are trademarks™ or registered® trademarks of their respective holders. Use of them does not imply any affiliation with or any endorsement by</p>
+
+            </div>
+            <div class="copy-right">
+                <span> &copy; SpyTrac.com. All Rights Reserved</span> 
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    
+    
+</body>
+</html>
